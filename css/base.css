@@ -1,0 +1,244 @@
+/* ============================================================
+   base.css — shared foundation for every page.
+   Themes override the custom properties below and add their own
+   ornament. Keep this file theme-neutral.
+   ============================================================ */
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+* { margin: 0; }
+
+:root {
+  /* Overridden per theme. */
+  --bg: #fbfaf7;
+  --bg-2: #f2efe9;
+  --ink: #1a1614;
+  --ink-soft: #5c554e;
+  --accent: #c1272d;
+  --gold: #b08d57;
+  --line: rgba(26, 22, 20, 0.14);
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-cjk: "Noto Serif SC", "Songti SC", serif;
+
+  --max: 1240px;
+  --gap: clamp(0.6rem, 1.4vw, 1.1rem);
+  --radius: 2px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 0.96rem + 0.3vw, 1.12rem);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+img { display: block; max-width: 100%; height: auto; }
+
+a { color: inherit; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  clip: rect(0 0 0 0); clip-path: inset(50%);
+  overflow: hidden; white-space: nowrap;
+}
+
+.wrap { width: min(100% - 2.4rem, var(--max)); margin-inline: auto; }
+
+/* ---- Top nav (back to home) ---------------------------------- */
+.site-nav {
+  position: sticky; top: 0; z-index: 30;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem clamp(1.1rem, 3vw, 2.2rem);
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  backdrop-filter: blur(8px);
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  border-bottom: 1px solid var(--line);
+}
+.site-nav a { text-decoration: none; }
+.site-nav__home { display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 600; }
+.site-nav__home::before { content: "←"; font-size: 1em; }
+.site-nav__couple { color: var(--ink-soft); font-style: italic; text-transform: none; letter-spacing: 0.02em; }
+@media (max-width: 640px) { .site-nav__couple { display: none; } }
+
+/* ---- Section heading used on gallery pages ------------------- */
+.gallery-head { text-align: center; }
+.gallery-head__zh {
+  font-family: var(--font-cjk);
+  color: var(--accent);
+  letter-spacing: 0.3em;
+}
+.gallery-head__en {
+  font-family: var(--font-display);
+  line-height: 1.02;
+}
+.gallery-head__blurb {
+  max-width: 46ch; margin-inline: auto;
+  color: var(--ink-soft);
+}
+
+/* ---- Photo grids --------------------------------------------- */
+.gallery { width: min(100% - 2rem, var(--max)); margin: 0 auto; }
+
+/* Masonry via CSS columns — robust, no layout JS. */
+.gallery--masonry {
+  column-gap: var(--gap);
+  columns: 3 260px;
+}
+.gallery--masonry .photo { break-inside: avoid; margin-bottom: var(--gap); }
+
+/* Uniform grid alternative. */
+.gallery--grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--gap);
+}
+.gallery--grid .photo { margin: 0; }
+.gallery--grid .photo__frame { aspect-ratio: var(--w) / var(--h); }
+.gallery--grid .photo__img { width: 100%; height: 100%; object-fit: cover; }
+
+.photo { position: relative; }
+.photo__frame {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--bg-2);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.photo__btn {
+  display: block; width: 100%; padding: 0; border: 0; cursor: pointer;
+  background: none;
+  border-radius: var(--radius);
+}
+.photo__img {
+  width: 100%;
+  transition: transform 0.7s var(--ease);
+  will-change: transform;
+}
+@media (hover: hover) {
+  .photo__frame::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.16), transparent 45%);
+    opacity: 0; transition: opacity 0.5s var(--ease);
+  }
+  .photo:hover .photo__frame { box-shadow: 0 16px 40px -18px rgba(0,0,0,0.5); }
+  .photo:hover .photo__frame::after { opacity: 1; }
+  .photo:hover .photo__img { transform: scale(1.045); }
+}
+
+.gallery-empty {
+  text-align: center; color: var(--ink-soft);
+  padding: 3rem 1rem; font-style: italic;
+}
+
+/* ---- Scroll reveal ------------------------------------------- */
+/* Only hide when JS is running (html.js). Without JS, everything is
+   visible by default — the gallery never depends on scripts to be seen. */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.9s var(--ease), transform 0.9s var(--ease);
+}
+.js .reveal.is-visible { opacity: 1; transform: none; }
+
+/* ---- Footer -------------------------------------------------- */
+.site-foot {
+  text-align: center;
+  padding: clamp(3rem, 8vw, 6rem) 1.4rem;
+  color: var(--ink-soft);
+}
+.site-foot__seal {
+  font-family: var(--font-cjk);
+  color: var(--accent);
+  font-size: 1.6rem;
+  display: inline-grid; place-items: center;
+  width: 2.6em; height: 2.6em;
+  border: 1.5px solid var(--accent);
+  border-radius: 4px;
+  margin-bottom: 1.2rem;
+}
+.site-foot__line { font-family: var(--font-display); font-size: 1.1rem; }
+
+/* ---- Lightbox ------------------------------------------------ */
+.lb {
+  position: fixed; inset: 0; z-index: 100;
+  display: grid; grid-template-rows: 1fr auto;
+  background: rgba(12, 10, 9, 0.94);
+  opacity: 0; visibility: hidden;
+  transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+.lb.is-open { opacity: 1; visibility: visible; }
+.lb__stage {
+  position: relative;
+  display: grid; place-items: center;
+  padding: clamp(1rem, 4vw, 3rem);
+  min-height: 0;
+}
+.lb__img {
+  max-width: 100%; max-height: 82vh;
+  object-fit: contain;
+  border-radius: 2px;
+  box-shadow: 0 30px 80px -30px rgba(0,0,0,0.8);
+  opacity: 0; transform: scale(0.985);
+  transition: opacity 0.4s var(--ease), transform 0.4s var(--ease);
+}
+.lb__img.is-shown { opacity: 1; transform: none; }
+.lb__caption {
+  color: rgba(255,255,255,0.72);
+  text-align: center;
+  padding: 0 1.4rem 1.6rem;
+  font-size: 0.9rem; letter-spacing: 0.02em;
+}
+.lb__count { color: rgba(255,255,255,0.5); font-variant-numeric: tabular-nums; }
+.lb__btn {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 3.2rem; height: 3.2rem;
+  display: grid; place-items: center;
+  border: 1px solid rgba(255,255,255,0.28);
+  background: rgba(255,255,255,0.06);
+  color: #fff; border-radius: 50%;
+  font-size: 1.3rem; cursor: pointer;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+.lb__btn:hover { background: rgba(255,255,255,0.18); }
+.lb__btn:active { transform: translateY(-50%) scale(0.94); }
+.lb__prev { left: clamp(0.6rem, 2vw, 1.6rem); }
+.lb__next { right: clamp(0.6rem, 2vw, 1.6rem); }
+.lb__close {
+  position: absolute; top: 1rem; right: 1rem;
+  width: 2.8rem; height: 2.8rem; transform: none;
+}
+.lb__close:active { transform: scale(0.94); }
+@media (max-width: 560px) {
+  .lb__btn { width: 2.7rem; height: 2.7rem; }
+}
+
+/* ---- Motion preferences -------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .js .reveal { opacity: 1 !important; transform: none !important; transition: none; }
+  .photo__img, .photo__frame, .lb, .lb__img { transition: none !important; }
+  [data-parallax] { transform: none !important; }
+}

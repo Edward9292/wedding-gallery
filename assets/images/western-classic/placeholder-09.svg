@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2100" viewBox="0 0 1600 2100">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe9df"/>
+      <stop offset="1" stop-color="#d6cdbe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="2100" fill="url(#g)"/>
+  <circle cx="1216" cy="672" r="480"
+    fill="none" stroke="#6e2233" stroke-width="6" opacity="0.55"/>
+  <g fill="#4a453d" font-family="Georgia, 'Noto Serif SC', serif" text-anchor="middle">
+    <text x="50%" y="47%" font-size="224" opacity="0.85">09</text>
+    <text x="50%" y="56%" font-size="53" letter-spacing="4" opacity="0.7">CLASSIC &amp; TIMELESS</text>
+    <text x="50%" y="62%" font-size="42" letter-spacing="2" opacity="0.5">YOUR PHOTO HERE</text>
+  </g>
+</svg>

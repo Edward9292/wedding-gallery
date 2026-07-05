@@ -1,0 +1,88 @@
+/* ============================================================
+   Classic & Timeless — romantic editorial. Ivory ground, deep
+   bordeaux, gold hairlines. A monogram crest as the signature.
+   ============================================================ */
+.theme-wc {
+  --bg: #f6f1e9;
+  --bg-2: #ece2d2;
+  --ink: #2b2724;
+  --ink-soft: #7a6f63;
+  --accent: #6e2233;
+  --gold: #bfa06a;
+  --line: rgba(43, 39, 36, 0.14);
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-cjk: "Noto Serif SC", serif;
+  --radius: 1px;
+  background:
+    radial-gradient(120% 70% at 50% -5%, #fbf7f0 0%, transparent 55%),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+/* ---- Hero: symmetric, formal, crested ------------------------ */
+.theme-wc .page-hero {
+  text-align: center;
+  padding: clamp(3.5rem, 9vw, 7rem) 1.4rem clamp(2.5rem, 6vw, 4rem);
+}
+.theme-wc .page-hero__inner {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gold);
+  border-bottom: 1px solid var(--gold);
+  padding-block: clamp(1.6rem, 4vw, 2.6rem);
+  position: relative;
+}
+.page-hero__monogram {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 7vw, 4rem);
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+.page-hero__monogram span {
+  font-style: italic;
+  color: var(--gold);
+  font-size: 0.62em;
+  margin: 0 0.1em;
+}
+.theme-wc .page-hero__eyebrow {
+  font-size: 0.78rem;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.theme-wc .page-hero__en {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-style: italic;
+  font-size: clamp(2.8rem, 8vw, 5.4rem);
+  line-height: 1;
+  color: var(--ink);
+}
+.theme-wc .page-hero__blurb {
+  max-width: 46ch;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+.theme-wc .page-hero__blurb em { color: var(--accent); font-style: italic; }
+
+/* ---- Photos: fine gold hairline frame ------------------------ */
+.theme-wc .gallery--masonry { columns: 3 280px; }
+.theme-wc .photo__frame {
+  border: 1px solid rgba(191, 160, 106, 0.55);
+  padding: 6px;
+  background: #fff;
+  border-radius: 1px;
+  box-shadow: 0 14px 34px -24px rgba(43, 39, 36, 0.5);
+}
+.theme-wc .photo__img { border-radius: 0; }
+.theme-wc .site-foot__seal {
+  background: none;
+  color: var(--accent);
+  border-color: var(--gold);
+}

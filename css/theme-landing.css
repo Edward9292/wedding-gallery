@@ -1,0 +1,236 @@
+/* ============================================================
+   theme-landing.css — the fusion hub.
+   Western editorial names on the left, a vertical vermilion scroll
+   with the Chinese names + seal on the right.
+   ============================================================ */
+.landing {
+  --bg: #fbfaf7;
+  --bg-2: #f1ede6;
+  --ink: #1a1614;
+  --ink-soft: #6a625a;
+  --accent: #c1272d;
+  --gold: #b08d57;
+  --line: rgba(26, 22, 20, 0.12);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-cjk: "Noto Serif SC", serif;
+  background:
+    radial-gradient(120% 80% at 100% 0%, #f6f1e9 0%, transparent 55%),
+    var(--bg);
+}
+
+/* ---- Hero ---------------------------------------------------- */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr minmax(4.5rem, 8rem);
+  min-height: 100svh;
+}
+
+.hero__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+  padding: clamp(2rem, 6vw, 5.5rem);
+  max-width: 46rem;
+}
+.hero__eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.hero__names {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(3.2rem, 12vw, 8.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.01em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.28em;
+}
+.hero__amp {
+  color: var(--accent);
+  font-style: italic;
+  font-size: 0.72em;
+}
+.hero__welcome {
+  max-width: 40ch;
+  color: var(--ink-soft);
+  font-size: 1.06rem;
+}
+.hero__cue {
+  align-self: start;
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 0.35rem;
+  color: var(--ink);
+  transition: gap 0.3s var(--ease), color 0.3s var(--ease);
+}
+.hero__cue::after { content: " ↓"; color: var(--accent); }
+.hero__cue:hover { color: var(--accent); }
+
+/* The vermilion scroll band. */
+.hero__scroll {
+  position: relative;
+  background: linear-gradient(160deg, #c1272d, #8c1c13);
+  color: #f6ead0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: clamp(1.4rem, 3vw, 2.6rem) 0;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+.hero__scroll::before {
+  /* faint gold hairline framing, like a scroll edge */
+  content: "";
+  position: absolute; inset: 0.7rem 0.55rem;
+  border: 1px solid rgba(232, 197, 119, 0.35);
+}
+.hero__zh {
+  writing-mode: vertical-rl;
+  font-family: var(--font-cjk);
+  font-weight: 500;
+  font-size: clamp(1.5rem, 3.4vw, 2.3rem);
+  letter-spacing: 0.35em;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+.hero__zh-dot { color: var(--gold); }
+.hero__seal {
+  font-family: var(--font-cjk);
+  font-weight: 700;
+  color: #fbeecb;
+  font-size: clamp(1.5rem, 3.2vw, 2.1rem);
+  display: grid;
+  place-items: center;
+  width: 2.4em;
+  height: 2.4em;
+  border: 1.5px solid rgba(251, 238, 203, 0.7);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 720px) {
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  .hero__scroll {
+    flex-direction: row;
+    padding: 0.9rem 1.4rem;
+  }
+  .hero__scroll::before { inset: 0.4rem 0.6rem; }
+  .hero__zh { writing-mode: horizontal-tb; font-size: 1.3rem; letter-spacing: 0.12em; }
+  .hero__seal { width: 2em; height: 2em; font-size: 1.2rem; }
+  .hero__main { min-height: 0; padding-block: clamp(2.5rem, 12vw, 4rem); }
+}
+
+/* ---- Galleries section --------------------------------------- */
+.galleries {
+  width: min(100% - 2.4rem, 1240px);
+  margin: 0 auto;
+  padding: clamp(4rem, 10vw, 8rem) 0 2rem;
+}
+.galleries__head { text-align: center; margin-bottom: clamp(2.5rem, 6vw, 4.5rem); }
+.galleries__eyebrow {
+  font-size: 0.8rem; letter-spacing: 0.32em; text-transform: uppercase;
+  color: var(--accent);
+}
+.galleries__title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  margin-top: 0.5rem;
+}
+.galleries__note { color: var(--ink-soft); margin-top: 0.6rem; font-style: italic; }
+
+.portals {
+  list-style: none; padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(1rem, 2.2vw, 1.6rem);
+}
+.portal--wide { grid-column: 1 / -1; }
+@media (max-width: 640px) {
+  .portals { grid-template-columns: 1fr; }
+}
+
+.portal__link {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  min-height: 12rem;
+  text-decoration: none;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease), border-color 0.4s var(--ease);
+}
+.portal--wide .portal__link { min-height: 9rem; }
+.portal__link:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 46px -26px rgba(0, 0, 0, 0.45);
+  border-color: transparent;
+}
+
+.portal__swatch { position: relative; }
+/* Each theme previews its own palette. */
+.portal--traditional-chinese .portal__swatch { background: linear-gradient(160deg, #8c1c13, #4d0d10); }
+.portal--modern-chinese .portal__swatch { background: linear-gradient(160deg, #efe9df, #d9d2c6); }
+.portal--western-classic .portal__swatch { background: linear-gradient(160deg, #f0e6d3, #6e2233); }
+.portal--western-modern .portal__swatch { background: linear-gradient(160deg, #eef0ec, #9aa891); }
+.portal--all-photos .portal__swatch { background: linear-gradient(160deg, #2b2724, #6a625a); }
+.portal__swatch::after {
+  content: ""; position: absolute; inset: 0;
+  background-image: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.28), transparent 40%);
+  mix-blend-mode: screen;
+}
+
+.portal__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: clamp(1.2rem, 2.4vw, 1.8rem);
+}
+.portal__index {
+  font-family: var(--font-display);
+  color: var(--gold);
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+}
+.portal__zh {
+  font-family: var(--font-cjk);
+  color: var(--accent);
+  font-size: 1rem;
+  letter-spacing: 0.24em;
+}
+.portal__en {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  line-height: 1.05;
+  margin-top: 0.1rem;
+}
+.portal__blurb { color: var(--ink-soft); font-size: 0.94rem; margin-top: 0.35rem; }
+.portal__go {
+  margin-top: auto;
+  padding-top: 0.8rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.portal__go span { transition: margin-left 0.3s var(--ease); display: inline-block; }
+.portal__link:hover .portal__go span { margin-left: 0.4rem; }
+
+.landing .site-foot { margin-top: 3rem; }

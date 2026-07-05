@@ -1,0 +1,112 @@
+[
+  {
+    "full": "assets/images/traditional-chinese/placeholder-01.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-01.svg",
+    "w": 1600,
+    "h": 2000,
+    "alt": "Traditional Chinese placeholder 1",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/traditional-chinese/placeholder-02.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-02.svg",
+    "w": 2000,
+    "h": 1400,
+    "alt": "Traditional Chinese placeholder 2",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/traditional-chinese/placeholder-03.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-03.svg",
+    "w": 1600,
+    "h": 1600,
+    "alt": "Traditional Chinese placeholder 3",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/traditional-chinese/placeholder-04.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-04.svg",
+    "w": 1400,
+    "h": 2000,
+    "alt": "Traditional Chinese placeholder 4",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/traditional-chinese/placeholder-05.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-05.svg",
+    "w": 2000,
+    "h": 1600,
+    "alt": "Traditional Chinese placeholder 5",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/traditional-chinese/placeholder-06.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-06.svg",
+    "w": 1600,
+    "h": 1900,
+    "alt": "Traditional Chinese placeholder 6",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/traditional-chinese/placeholder-07.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-07.svg",
+    "w": 2000,
+    "h": 1500,
+    "alt": "Traditional Chinese placeholder 7",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/traditional-chinese/placeholder-08.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-08.svg",
+    "w": 1500,
+    "h": 1500,
+    "alt": "Traditional Chinese placeholder 8",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/traditional-chinese/placeholder-09.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-09.svg",
+    "w": 1600,
+    "h": 2100,
+    "alt": "Traditional Chinese placeholder 9",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/traditional-chinese/placeholder-10.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-10.svg",
+    "w": 2000,
+    "h": 1333,
+    "alt": "Traditional Chinese placeholder 10",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/traditional-chinese/placeholder-11.svg",
+    "thumb": "assets/images/traditional-chinese/placeholder-11.svg",
+    "w": 1800,
+    "h": 1600,
+    "alt": "Traditional Chinese placeholder 11",
+    "theme": "traditional-chinese",
+    "themeTitle": "Traditional Chinese",
+    "placeholder": true
+  }
+]

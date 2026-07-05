@@ -1,0 +1,81 @@
+/* ============================================================
+   Every Photo — a museum archive. Neutral gallery wall so the
+   photographs supply all the colour. Tracked labels, filter chips.
+   ============================================================ */
+.theme-all {
+  --bg: #f4f4f2;
+  --bg-2: #e6e6e2;
+  --ink: #23231f;
+  --ink-soft: #7c7c74;
+  --accent: #23231f;
+  --gold: #a8a89e;
+  --line: rgba(35, 35, 31, 0.14);
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Space Grotesk", system-ui, sans-serif;
+  --font-cjk: "Noto Sans SC", sans-serif;
+  --gap: clamp(0.6rem, 1.4vw, 1rem);
+  --radius: 1px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+/* ---- Hero: archive placard ----------------------------------- */
+.theme-all .page-hero {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: clamp(3.5rem, 9vw, 6.5rem) clamp(1.4rem, 4vw, 2.5rem) clamp(2rem, 5vw, 3rem);
+  border-bottom: 1px solid var(--line);
+}
+.theme-all .page-hero__eyebrow {
+  font-size: 0.76rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.theme-all .page-hero__en {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(2.6rem, 9vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 0.5rem 0 0.7rem;
+}
+.theme-all .page-hero__blurb { color: var(--ink-soft); max-width: 48ch; }
+
+/* ---- Filter chips -------------------------------------------- */
+.filters {
+  display: flex; flex-wrap: wrap; gap: 0.5rem;
+  margin-top: 1.6rem;
+}
+.filter {
+  font: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink-soft);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: color 0.25s var(--ease), background 0.25s var(--ease), border-color 0.25s var(--ease);
+}
+.filter:hover { color: var(--ink); border-color: var(--ink); }
+.filter.is-active {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+/* ---- Photos: bare, tight archive grid ------------------------ */
+.theme-all .gallery { padding-top: clamp(1.5rem, 4vw, 2.5rem); }
+.theme-all .gallery--masonry { columns: 4 220px; }
+.theme-all .photo__frame {
+  border-radius: 1px;
+  box-shadow: 0 6px 20px -18px rgba(0,0,0,0.6);
+}
+.theme-all .site-foot__seal {
+  background: none;
+  color: var(--accent);
+  border-color: var(--gold);
+}

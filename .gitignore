@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.DS_Store
+Thumbs.db
+
+# Full-resolution originals live here but are NOT committed.
+# Run `npm run build:images` to generate optimized web versions into assets/images/.
+photos-src/

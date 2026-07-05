@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add("js");</script>
+  <title>Edward &amp; Cathy · Our Wedding</title>
+  <meta name="description" content="Wedding photographs of Edward &amp; Cathy (林葆華 · 裴彩依), organized by theme.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/theme-landing.css">
+</head>
+<body class="landing">
+
+  <section class="hero">
+    <div class="hero__main">
+      <p class="hero__eyebrow" data-site="dateDisplay">Our Wedding</p>
+      <h1 class="hero__names">
+        <span data-site="groomEn">Edward</span>
+        <span class="hero__amp">&amp;</span>
+        <span data-site="brideEn">Cathy</span>
+      </h1>
+      <p class="hero__welcome" data-site="welcome">
+        Thank you for celebrating with us. We gathered these photographs the way the day itself
+        unfolded — across two cultures, two families, one marriage.
+      </p>
+      <a class="hero__cue" href="#galleries">Enter the galleries</a>
+    </div>
+
+    <aside class="hero__scroll" data-parallax="-0.05">
+      <div class="hero__zh" aria-hidden="true">
+        <span data-site="groomZh">林葆華</span>
+        <span class="hero__zh-dot">·</span>
+        <span data-site="brideZh">裴彩依</span>
+      </div>
+      <div class="hero__seal" data-site="sealZh" aria-label="Double happiness">囍</div>
+    </aside>
+  </section>
+
+  <main id="galleries" class="galleries">
+    <header class="galleries__head reveal">
+      <p class="galleries__eyebrow">Five worlds · 五个世界</p>
+      <h2 class="galleries__title">Choose where to wander</h2>
+      <p class="galleries__note">Each room is dressed to match the photographs it holds.</p>
+    </header>
+    <ul class="portals" data-portals></ul>
+  </main>
+
+  <footer class="site-foot">
+    <div class="site-foot__seal">囍</div>
+    <p class="site-foot__line" data-site="footer">With love, Edward &amp; Cathy · 林葆華 與 裴彩依</p>
+  </footer>
+
+  <script src="js/motion.js" defer></script>
+  <script src="js/landing.js" defer></script>
+</body>
+</html>

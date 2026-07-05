@@ -1,0 +1,110 @@
+/* ============================================================
+   Traditional Chinese — lacquer red, gold, the double happiness.
+   Maximalist and ceremonial. Ornament frames the photos; the photos
+   stay the star.
+   ============================================================ */
+.theme-tc {
+  --bg: #7a1218;
+  --bg-2: #5e0f12;
+  --ink: #f6ead0;
+  --ink-soft: #e4c79a;
+  --accent: #e8c577;
+  --gold: #e8c577;
+  --line: rgba(232, 197, 119, 0.28);
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Cormorant Garamond", Georgia, serif;
+  --font-cjk: "Noto Serif SC", serif;
+  --radius: 1px;
+  background:
+    radial-gradient(140% 60% at 50% -10%, #8c1c13 0%, transparent 60%),
+    repeating-linear-gradient(45deg, rgba(232,197,119,0.03) 0 14px, transparent 14px 28px),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+/* ---- Hero ---------------------------------------------------- */
+.theme-tc .page-hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: clamp(3.5rem, 9vw, 7rem) 1.4rem clamp(2.5rem, 6vw, 4rem);
+}
+.page-hero__watermark {
+  position: absolute; inset: 0;
+  display: grid; place-items: center;
+  font-family: var(--font-cjk);
+  font-weight: 900;
+  font-size: clamp(18rem, 42vw, 34rem);
+  color: rgba(232, 197, 119, 0.06);
+  pointer-events: none;
+  line-height: 1;
+}
+.page-hero__couplet {
+  position: absolute;
+  top: 50%; right: clamp(0.6rem, 3vw, 2.5rem);
+  transform: translateY(-50%);
+  writing-mode: vertical-rl;
+  font-family: var(--font-cjk);
+  font-size: clamp(1.1rem, 2.4vw, 1.7rem);
+  letter-spacing: 0.5em;
+  color: var(--gold);
+  opacity: 0.7;
+}
+.page-hero__inner {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  padding: clamp(2rem, 5vw, 3.2rem) clamp(2.5rem, 7vw, 5rem);
+  border: 1px solid var(--gold);
+  outline: 1px solid var(--gold);
+  outline-offset: 6px;
+}
+.page-hero__seal {
+  font-family: var(--font-cjk);
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fbeecb;
+  display: grid; place-items: center;
+  width: 2.5em; height: 2.5em;
+  background: linear-gradient(160deg, #c1272d, #8c1c13);
+  border: 1px solid var(--gold);
+  box-shadow: 0 0 0 4px rgba(122, 18, 24, 1), 0 0 0 5px var(--gold);
+  margin-bottom: 0.4rem;
+}
+.page-hero__zh {
+  font-family: var(--font-cjk);
+  font-weight: 500;
+  font-size: clamp(1.1rem, 3vw, 1.5rem);
+  letter-spacing: 0.5em;
+  color: var(--gold);
+  padding-left: 0.5em;
+}
+.page-hero__en {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-style: italic;
+  font-size: clamp(2.6rem, 8vw, 5rem);
+  line-height: 1;
+}
+.page-hero__blurb {
+  max-width: 44ch;
+  color: var(--ink-soft);
+  font-size: 1.15rem;
+  font-style: italic;
+}
+
+/* ---- Photos: gold-framed ------------------------------------- */
+.theme-tc .gallery { padding-bottom: 2rem; }
+.theme-tc .photo__frame {
+  border: 1px solid var(--gold);
+  box-shadow: 0 0 0 3px rgba(122, 18, 24, 1), 0 0 0 4px rgba(232, 197, 119, 0.4);
+  background: #5e0f12;
+}
+.theme-tc .site-foot__seal {
+  background: linear-gradient(160deg, #c1272d, #8c1c13);
+  color: #fbeecb;
+  border-color: var(--gold);
+}

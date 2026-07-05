@@ -1,0 +1,112 @@
+[
+  {
+    "full": "assets/images/western-modern/placeholder-01.svg",
+    "thumb": "assets/images/western-modern/placeholder-01.svg",
+    "w": 1600,
+    "h": 2000,
+    "alt": "Modern & Airy placeholder 1",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/western-modern/placeholder-02.svg",
+    "thumb": "assets/images/western-modern/placeholder-02.svg",
+    "w": 2000,
+    "h": 1400,
+    "alt": "Modern & Airy placeholder 2",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/western-modern/placeholder-03.svg",
+    "thumb": "assets/images/western-modern/placeholder-03.svg",
+    "w": 1600,
+    "h": 1600,
+    "alt": "Modern & Airy placeholder 3",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/western-modern/placeholder-04.svg",
+    "thumb": "assets/images/western-modern/placeholder-04.svg",
+    "w": 1400,
+    "h": 2000,
+    "alt": "Modern & Airy placeholder 4",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/western-modern/placeholder-05.svg",
+    "thumb": "assets/images/western-modern/placeholder-05.svg",
+    "w": 2000,
+    "h": 1600,
+    "alt": "Modern & Airy placeholder 5",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/western-modern/placeholder-06.svg",
+    "thumb": "assets/images/western-modern/placeholder-06.svg",
+    "w": 1600,
+    "h": 1900,
+    "alt": "Modern & Airy placeholder 6",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/western-modern/placeholder-07.svg",
+    "thumb": "assets/images/western-modern/placeholder-07.svg",
+    "w": 2000,
+    "h": 1500,
+    "alt": "Modern & Airy placeholder 7",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/western-modern/placeholder-08.svg",
+    "thumb": "assets/images/western-modern/placeholder-08.svg",
+    "w": 1500,
+    "h": 1500,
+    "alt": "Modern & Airy placeholder 8",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/western-modern/placeholder-09.svg",
+    "thumb": "assets/images/western-modern/placeholder-09.svg",
+    "w": 1600,
+    "h": 2100,
+    "alt": "Modern & Airy placeholder 9",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/western-modern/placeholder-10.svg",
+    "thumb": "assets/images/western-modern/placeholder-10.svg",
+    "w": 2000,
+    "h": 1333,
+    "alt": "Modern & Airy placeholder 10",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  },
+  {
+    "full": "assets/images/western-modern/placeholder-11.svg",
+    "thumb": "assets/images/western-modern/placeholder-11.svg",
+    "w": 1800,
+    "h": 1600,
+    "alt": "Modern & Airy placeholder 11",
+    "theme": "western-modern",
+    "themeTitle": "Modern & Airy",
+    "placeholder": true
+  }
+]

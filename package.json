@@ -1,0 +1,15 @@
+{
+  "name": "wedding-gallery",
+  "version": "1.0.0",
+  "description": "Edward & Cathy's wedding photo gallery, organized by theme.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build:images": "node scripts/build-images.mjs",
+    "placeholders": "node scripts/make-placeholders.mjs",
+    "serve": "npx --yes serve@14 ."
+  },
+  "devDependencies": {
+    "sharp": "^0.33.4"
+  }
+}

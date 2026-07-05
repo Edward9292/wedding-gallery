@@ -1,0 +1,76 @@
+/* ============================================================
+   Modern Chinese — 新中式. Rice paper, ink, one muted vermilion,
+   a single brushstroke, and a lot of breathing room.
+   ============================================================ */
+.theme-mc {
+  --bg: #f3efe9;
+  --bg-2: #e9e3d9;
+  --ink: #20201e;
+  --ink-soft: #6f6a61;
+  --accent: #b23a34;
+  --gold: #a98c54;
+  --line: rgba(32, 32, 30, 0.12);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Noto Sans SC", system-ui, sans-serif;
+  --font-cjk: "Noto Sans SC", sans-serif;
+  --gap: clamp(1rem, 2.4vw, 2rem);
+  --radius: 1px;
+  background:
+    radial-gradient(100% 60% at 12% 0%, #f8f5ef 0%, transparent 55%),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-weight: 300;
+}
+
+/* ---- Hero: asymmetric, airy ---------------------------------- */
+.theme-mc .page-hero {
+  padding: clamp(4rem, 12vw, 9rem) clamp(1.4rem, 8vw, 8rem) clamp(2rem, 6vw, 4rem);
+}
+.theme-mc .page-hero__inner {
+  max-width: 34rem;
+}
+.page-hero__zh {
+  font-family: var(--font-cjk);
+  font-weight: 300;
+  font-size: clamp(1rem, 2.6vw, 1.3rem);
+  letter-spacing: 0.55em;
+  color: var(--accent);
+  padding-left: 0.55em;
+}
+.theme-mc .page-hero__en {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.6rem, 8vw, 5rem);
+  line-height: 1;
+  margin-top: 0.6rem;
+}
+.page-hero__stroke {
+  display: block;
+  width: clamp(9rem, 26vw, 15rem);
+  height: 2.2rem;
+  color: var(--accent);
+  margin: 1rem 0 1.4rem;
+  opacity: 0.9;
+}
+.theme-mc .page-hero__blurb {
+  max-width: 40ch;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+
+/* ---- Photos: clean, quiet, thin ink hairline ---------------- */
+.theme-mc .gallery--masonry { columns: 3 300px; }
+.theme-mc .photo__frame {
+  border: 1px solid var(--line);
+  border-radius: 1px;
+  background: #fff;
+  box-shadow: 0 10px 30px -24px rgba(0,0,0,0.5);
+}
+.theme-mc .site-foot { border-top: 1px solid var(--line); margin-top: 2rem; }
+.theme-mc .site-foot__seal {
+  background: none;
+  color: var(--accent);
+  border-color: var(--accent);
+  border-radius: 2px;
+}

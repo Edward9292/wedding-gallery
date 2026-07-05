@@ -1,0 +1,61 @@
+/* ============================================================
+   Modern & Airy — bright, minimal, gallery-like. Soft greige and
+   sage, a clean grotesque, generous whitespace, uniform grid.
+   ============================================================ */
+.theme-wm {
+  --bg: #fcfcfa;
+  --bg-2: #eef0ec;
+  --ink: #3a3a36;
+  --ink-soft: #8a8a82;
+  --accent: #7f9075;
+  --gold: #b6b0a4;
+  --line: rgba(58, 58, 54, 0.12);
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Space Grotesk", system-ui, sans-serif;
+  --font-cjk: "Noto Sans SC", sans-serif;
+  --gap: clamp(0.8rem, 2vw, 1.6rem);
+  --radius: 2px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+/* ---- Hero: minimal, tracked-out ------------------------------ */
+.theme-wm .page-hero {
+  padding: clamp(4rem, 12vw, 9rem) clamp(1.4rem, 5vw, 3rem) clamp(2.5rem, 6vw, 4rem);
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.theme-wm .page-hero__eyebrow {
+  font-size: 0.78rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 500;
+}
+.theme-wm .page-hero__en {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(2.8rem, 10vw, 6rem);
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  margin: 0.6rem 0 0.8rem;
+}
+.theme-wm .page-hero__blurb {
+  max-width: 42ch;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+
+/* ---- Photos: uniform grid, no chrome ------------------------- */
+.theme-wm .gallery--grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.theme-wm .gallery--grid .photo__frame {
+  aspect-ratio: 4 / 5; /* uniform crop for a calm, tiled wall */
+  border-radius: 2px;
+  box-shadow: 0 8px 26px -20px rgba(0,0,0,0.4);
+}
+.theme-wm .site-foot__seal {
+  background: none;
+  color: var(--accent);
+  border-color: var(--accent);
+}
