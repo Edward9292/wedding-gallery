@@ -1,112 +1,470 @@
 [
   {
-    "full": "assets/images/western-classic/placeholder-01.svg",
-    "thumb": "assets/images/western-classic/placeholder-01.svg",
-    "w": 1600,
-    "h": 2000,
-    "alt": "Classic & Timeless placeholder 1",
-    "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/western-classic/placeholder-02.svg",
-    "thumb": "assets/images/western-classic/placeholder-02.svg",
-    "w": 2000,
-    "h": 1400,
-    "alt": "Classic & Timeless placeholder 2",
-    "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/western-classic/placeholder-03.svg",
-    "thumb": "assets/images/western-classic/placeholder-03.svg",
-    "w": 1600,
+    "full": "assets/images/western-classic/0T8A9491.webp",
+    "thumb": "assets/images/western-classic/0T8A9491.thumb.webp",
+    "w": 1067,
     "h": 1600,
-    "alt": "Classic & Timeless placeholder 3",
+    "alt": "T8A9491",
     "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
+    "themeTitle": "Classic & Timeless"
   },
   {
-    "full": "assets/images/western-classic/placeholder-04.svg",
-    "thumb": "assets/images/western-classic/placeholder-04.svg",
-    "w": 1400,
-    "h": 2000,
-    "alt": "Classic & Timeless placeholder 4",
-    "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/western-classic/placeholder-05.svg",
-    "thumb": "assets/images/western-classic/placeholder-05.svg",
-    "w": 2000,
+    "full": "assets/images/western-classic/0T8A9492.webp",
+    "thumb": "assets/images/western-classic/0T8A9492.thumb.webp",
+    "w": 1067,
     "h": 1600,
-    "alt": "Classic & Timeless placeholder 5",
+    "alt": "T8A9492",
     "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
+    "themeTitle": "Classic & Timeless"
   },
   {
-    "full": "assets/images/western-classic/placeholder-06.svg",
-    "thumb": "assets/images/western-classic/placeholder-06.svg",
-    "w": 1600,
-    "h": 1900,
-    "alt": "Classic & Timeless placeholder 6",
-    "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/western-classic/placeholder-07.svg",
-    "thumb": "assets/images/western-classic/placeholder-07.svg",
-    "w": 2000,
-    "h": 1500,
-    "alt": "Classic & Timeless placeholder 7",
-    "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/western-classic/placeholder-08.svg",
-    "thumb": "assets/images/western-classic/placeholder-08.svg",
-    "w": 1500,
-    "h": 1500,
-    "alt": "Classic & Timeless placeholder 8",
-    "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/western-classic/placeholder-09.svg",
-    "thumb": "assets/images/western-classic/placeholder-09.svg",
-    "w": 1600,
-    "h": 2100,
-    "alt": "Classic & Timeless placeholder 9",
-    "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/western-classic/placeholder-10.svg",
-    "thumb": "assets/images/western-classic/placeholder-10.svg",
-    "w": 2000,
-    "h": 1333,
-    "alt": "Classic & Timeless placeholder 10",
-    "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/western-classic/placeholder-11.svg",
-    "thumb": "assets/images/western-classic/placeholder-11.svg",
-    "w": 1800,
+    "full": "assets/images/western-classic/0T8A9493.webp",
+    "thumb": "assets/images/western-classic/0T8A9493.thumb.webp",
+    "w": 1067,
     "h": 1600,
-    "alt": "Classic & Timeless placeholder 11",
+    "alt": "T8A9493",
     "theme": "western-classic",
-    "themeTitle": "Classic & Timeless",
-    "placeholder": true
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9495.webp",
+    "thumb": "assets/images/western-classic/0T8A9495.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9495",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9498.webp",
+    "thumb": "assets/images/western-classic/0T8A9498.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9498",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9499.webp",
+    "thumb": "assets/images/western-classic/0T8A9499.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9499",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9503.webp",
+    "thumb": "assets/images/western-classic/0T8A9503.thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "alt": "T8A9503",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9505.webp",
+    "thumb": "assets/images/western-classic/0T8A9505.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9505",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9508.webp",
+    "thumb": "assets/images/western-classic/0T8A9508.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9508",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9510.webp",
+    "thumb": "assets/images/western-classic/0T8A9510.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9510",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9511.webp",
+    "thumb": "assets/images/western-classic/0T8A9511.thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "alt": "T8A9511",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9512.webp",
+    "thumb": "assets/images/western-classic/0T8A9512.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9512",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9515.webp",
+    "thumb": "assets/images/western-classic/0T8A9515.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9515",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9523.webp",
+    "thumb": "assets/images/western-classic/0T8A9523.thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "alt": "T8A9523",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9524.webp",
+    "thumb": "assets/images/western-classic/0T8A9524.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9524",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9529.webp",
+    "thumb": "assets/images/western-classic/0T8A9529.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9529",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9533.webp",
+    "thumb": "assets/images/western-classic/0T8A9533.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9533",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9534.webp",
+    "thumb": "assets/images/western-classic/0T8A9534.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9534",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9535.webp",
+    "thumb": "assets/images/western-classic/0T8A9535.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9535",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9536.webp",
+    "thumb": "assets/images/western-classic/0T8A9536.thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "alt": "T8A9536",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9540.webp",
+    "thumb": "assets/images/western-classic/0T8A9540.thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "alt": "T8A9540",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9541.webp",
+    "thumb": "assets/images/western-classic/0T8A9541.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9541",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9543.webp",
+    "thumb": "assets/images/western-classic/0T8A9543.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9543",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9544.webp",
+    "thumb": "assets/images/western-classic/0T8A9544.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9544",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9547.webp",
+    "thumb": "assets/images/western-classic/0T8A9547.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9547",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9548.webp",
+    "thumb": "assets/images/western-classic/0T8A9548.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9548",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9549.webp",
+    "thumb": "assets/images/western-classic/0T8A9549.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9549",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9551.webp",
+    "thumb": "assets/images/western-classic/0T8A9551.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9551",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9559.webp",
+    "thumb": "assets/images/western-classic/0T8A9559.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9559",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9582.webp",
+    "thumb": "assets/images/western-classic/0T8A9582.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9582",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9595.webp",
+    "thumb": "assets/images/western-classic/0T8A9595.thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "alt": "T8A9595",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9606.webp",
+    "thumb": "assets/images/western-classic/0T8A9606.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9606",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9612.webp",
+    "thumb": "assets/images/western-classic/0T8A9612.thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "alt": "T8A9612",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9618.webp",
+    "thumb": "assets/images/western-classic/0T8A9618.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9618",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9640.webp",
+    "thumb": "assets/images/western-classic/0T8A9640.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9640",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9649.webp",
+    "thumb": "assets/images/western-classic/0T8A9649.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9649",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9654.webp",
+    "thumb": "assets/images/western-classic/0T8A9654.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9654",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9657.webp",
+    "thumb": "assets/images/western-classic/0T8A9657.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9657",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9670.webp",
+    "thumb": "assets/images/western-classic/0T8A9670.thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "alt": "T8A9670",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9673.webp",
+    "thumb": "assets/images/western-classic/0T8A9673.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9673",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9680.webp",
+    "thumb": "assets/images/western-classic/0T8A9680.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9680",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9683.webp",
+    "thumb": "assets/images/western-classic/0T8A9683.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9683",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9697莉莉安8摆台.webp",
+    "thumb": "assets/images/western-classic/0T8A9697莉莉安8摆台.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9697莉莉安8摆台",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9708.webp",
+    "thumb": "assets/images/western-classic/0T8A9708.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9708",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9720.webp",
+    "thumb": "assets/images/western-classic/0T8A9720.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9720",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9732.webp",
+    "thumb": "assets/images/western-classic/0T8A9732.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9732",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9742.webp",
+    "thumb": "assets/images/western-classic/0T8A9742.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9742",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9757.webp",
+    "thumb": "assets/images/western-classic/0T8A9757.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9757",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9769.webp",
+    "thumb": "assets/images/western-classic/0T8A9769.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9769",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9781.webp",
+    "thumb": "assets/images/western-classic/0T8A9781.thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "alt": "T8A9781",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9791.webp",
+    "thumb": "assets/images/western-classic/0T8A9791.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9791",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
+  },
+  {
+    "full": "assets/images/western-classic/0T8A9801.webp",
+    "thumb": "assets/images/western-classic/0T8A9801.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9801",
+    "theme": "western-classic",
+    "themeTitle": "Classic & Timeless"
   }
 ]

@@ -1,112 +1,137 @@
 [
   {
-    "full": "assets/images/modern-chinese/placeholder-01.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-01.svg",
-    "w": 1600,
-    "h": 2000,
-    "alt": "Modern Chinese placeholder 1",
-    "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/modern-chinese/placeholder-02.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-02.svg",
-    "w": 2000,
-    "h": 1400,
-    "alt": "Modern Chinese placeholder 2",
-    "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/modern-chinese/placeholder-03.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-03.svg",
-    "w": 1600,
+    "full": "assets/images/modern-chinese/0T8A0012.webp",
+    "thumb": "assets/images/modern-chinese/0T8A0012.thumb.webp",
+    "w": 1067,
     "h": 1600,
-    "alt": "Modern Chinese placeholder 3",
+    "alt": "T8A0012",
     "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
+    "themeTitle": "Modern Chinese"
   },
   {
-    "full": "assets/images/modern-chinese/placeholder-04.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-04.svg",
-    "w": 1400,
-    "h": 2000,
-    "alt": "Modern Chinese placeholder 4",
-    "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/modern-chinese/placeholder-05.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-05.svg",
-    "w": 2000,
-    "h": 1600,
-    "alt": "Modern Chinese placeholder 5",
-    "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/modern-chinese/placeholder-06.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-06.svg",
+    "full": "assets/images/modern-chinese/0T8A0019.webp",
+    "thumb": "assets/images/modern-chinese/0T8A0019.thumb.webp",
     "w": 1600,
-    "h": 1900,
-    "alt": "Modern Chinese placeholder 6",
+    "h": 1067,
+    "alt": "T8A0019",
     "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
+    "themeTitle": "Modern Chinese"
   },
   {
-    "full": "assets/images/modern-chinese/placeholder-07.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-07.svg",
-    "w": 2000,
-    "h": 1500,
-    "alt": "Modern Chinese placeholder 7",
-    "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/modern-chinese/placeholder-08.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-08.svg",
-    "w": 1500,
-    "h": 1500,
-    "alt": "Modern Chinese placeholder 8",
-    "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/modern-chinese/placeholder-09.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-09.svg",
-    "w": 1600,
-    "h": 2100,
-    "alt": "Modern Chinese placeholder 9",
-    "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/modern-chinese/placeholder-10.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-10.svg",
-    "w": 2000,
-    "h": 1333,
-    "alt": "Modern Chinese placeholder 10",
-    "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
-  },
-  {
-    "full": "assets/images/modern-chinese/placeholder-11.svg",
-    "thumb": "assets/images/modern-chinese/placeholder-11.svg",
-    "w": 1800,
+    "full": "assets/images/modern-chinese/0T8A0021.webp",
+    "thumb": "assets/images/modern-chinese/0T8A0021.thumb.webp",
+    "w": 1067,
     "h": 1600,
-    "alt": "Modern Chinese placeholder 11",
+    "alt": "T8A0021",
     "theme": "modern-chinese",
-    "themeTitle": "Modern Chinese",
-    "placeholder": true
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A0038.webp",
+    "thumb": "assets/images/modern-chinese/0T8A0038.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A0038",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A0046.webp",
+    "thumb": "assets/images/modern-chinese/0T8A0046.thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "alt": "T8A0046",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A9831.webp",
+    "thumb": "assets/images/modern-chinese/0T8A9831.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9831",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A9847.webp",
+    "thumb": "assets/images/modern-chinese/0T8A9847.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9847",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A9864.webp",
+    "thumb": "assets/images/modern-chinese/0T8A9864.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9864",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A9873莉莉安 8摆台.webp",
+    "thumb": "assets/images/modern-chinese/0T8A9873莉莉安 8摆台.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9873莉莉安 8摆台",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A9877.webp",
+    "thumb": "assets/images/modern-chinese/0T8A9877.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9877",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A9916.webp",
+    "thumb": "assets/images/modern-chinese/0T8A9916.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9916",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A9920.webp",
+    "thumb": "assets/images/modern-chinese/0T8A9920.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9920",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A9926.webp",
+    "thumb": "assets/images/modern-chinese/0T8A9926.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9926",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A9938.webp",
+    "thumb": "assets/images/modern-chinese/0T8A9938.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9938",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
+  },
+  {
+    "full": "assets/images/modern-chinese/0T8A9944.webp",
+    "thumb": "assets/images/modern-chinese/0T8A9944.thumb.webp",
+    "w": 1067,
+    "h": 1600,
+    "alt": "T8A9944",
+    "theme": "modern-chinese",
+    "themeTitle": "Modern Chinese"
   }
 ]
