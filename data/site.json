@@ -8,44 +8,37 @@
   "sealZh": "囍",
   "date": "2025",
   "dateDisplay": "Our Wedding",
-  "welcome": "Thank you for celebrating with us. We gathered these photographs the way the day itself unfolded — across two cultures, two families, one marriage. Wander through whichever world you like.",
+  "welcome": "Thank you for celebrating with us.",
   "welcomeZh": "感谢您与我们同喜。",
-  "footer": "With love, Edward & Cathy · 林葆華 與 裴彩依",
+  "footer": "Edward & Cathy · 林葆華 與 裴彩依",
   "themes": [
     {
       "slug": "traditional-chinese",
       "page": "traditional-chinese.html",
       "titleEn": "Traditional Chinese",
       "titleZh": "传统中式",
-      "blurb": "Red and gold, the double happiness, the ceremony of it all."
+      "blurb": "Red, gold, double happiness."
     },
     {
       "slug": "modern-chinese",
       "page": "modern-chinese.html",
       "titleEn": "Modern Chinese",
       "titleZh": "现代中式",
-      "blurb": "Ink and quiet. A contemporary reading of an old tradition."
+      "blurb": "Ink and quiet."
     },
     {
       "slug": "western-classic",
       "page": "western-classic.html",
       "titleEn": "Classic & Timeless",
       "titleZh": "经典西式",
-      "blurb": "Ivory, bordeaux and gold. The romance of a formal affair."
+      "blurb": "Ivory, bordeaux, gold."
     },
     {
       "slug": "western-modern",
       "page": "western-modern.html",
       "titleEn": "Modern & Airy",
       "titleZh": "现代西式",
-      "blurb": "Light, air and open space. Clean lines, soft colour."
-    },
-    {
-      "slug": "all-photos",
-      "page": "all-photos.html",
-      "titleEn": "Every Photo",
-      "titleZh": "全部照片",
-      "blurb": "The whole archive, every theme, in one place."
+      "blurb": "Light and open space."
     }
   ]
 }

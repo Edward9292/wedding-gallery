@@ -152,8 +152,6 @@
   font-size: clamp(2rem, 5vw, 3.4rem);
   margin-top: 0.5rem;
 }
-.galleries__note { color: var(--ink-soft); margin-top: 0.6rem; font-style: italic; }
-
 .portals {
   list-style: none; padding: 0;
   display: grid;
@@ -233,4 +231,55 @@
 .portal__go span { transition: margin-left 0.3s var(--ease); display: inline-block; }
 .portal__link:hover .portal__go span { margin-left: 0.4rem; }
 
+/* ---- Every Photo (merged in) --------------------------------- */
+.every { margin-top: clamp(4rem, 9vw, 7rem); }
+.every .gallery { width: 100%; padding: 0; margin: 0; }
+.every .gallery--masonry { columns: 4 220px; }
+
+.filters {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.4rem;
+}
+.filter {
+  font: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink-soft);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: color 0.25s var(--ease), background 0.25s var(--ease), border-color 0.25s var(--ease);
+}
+.filter:hover { color: var(--ink); border-color: var(--ink); }
+.filter.is-active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
 .landing .site-foot { margin-top: 3rem; }
+
+/* ---- Hero intro: a restrained, staggered rise on load -------- */
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes heroRise {
+    from { opacity: 0; transform: translateY(1.1rem); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  .hero__eyebrow,
+  .hero__names span,
+  .hero__welcome,
+  .hero__cue,
+  .hero__zh,
+  .hero__seal {
+    animation: heroRise 0.9s var(--ease) both;
+  }
+
+  .hero__eyebrow      { animation-delay: 0.05s; }
+  .hero__names span:nth-child(1) { animation-delay: 0.18s; }
+  .hero__names span:nth-child(2) { animation-delay: 0.30s; }
+  .hero__names span:nth-child(3) { animation-delay: 0.42s; }
+  .hero__welcome      { animation-delay: 0.52s; }
+  .hero__cue          { animation-delay: 0.64s; }
+  .hero__zh           { animation-delay: 0.40s; }
+  .hero__seal         { animation-delay: 0.55s; }
+}

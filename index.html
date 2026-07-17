@@ -23,10 +23,9 @@
         <span data-site="brideEn">Cathy</span>
       </h1>
       <p class="hero__welcome" data-site="welcome">
-        Thank you for celebrating with us. We gathered these photographs the way the day itself
-        unfolded — across two cultures, two families, one marriage.
+        Thank you for celebrating with us.
       </p>
-      <a class="hero__cue" href="#galleries">Enter the galleries</a>
+      <a class="hero__cue" href="#galleries">View the galleries</a>
     </div>
 
     <aside class="hero__scroll" data-parallax="-0.05">
@@ -41,19 +40,53 @@
 
   <main id="galleries" class="galleries">
     <header class="galleries__head reveal">
-      <p class="galleries__eyebrow">Five worlds · 五个世界</p>
-      <h2 class="galleries__title">Choose where to wander</h2>
-      <p class="galleries__note">Each room is dressed to match the photographs it holds.</p>
+      <p class="galleries__eyebrow">四辑 · By Theme</p>
+      <h2 class="galleries__title">The Galleries</h2>
     </header>
     <ul class="portals" data-portals></ul>
+
+    <section id="every" class="every">
+      <header class="galleries__head reveal">
+        <p class="galleries__eyebrow">全部照片 · Every Photo</p>
+        <h2 class="galleries__title">All of it</h2>
+        <div class="filters reveal" role="group" aria-label="Filter photos by theme">
+          <button class="filter is-active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="traditional-chinese">Traditional CN</button>
+          <button class="filter" type="button" data-filter="modern-chinese">Modern CN</button>
+          <button class="filter" type="button" data-filter="western-classic">Classic</button>
+          <button class="filter" type="button" data-filter="western-modern">Modern</button>
+        </div>
+      </header>
+      <div class="gallery gallery--masonry" data-manifest="data/all-photos.json" aria-label="All wedding photos"></div>
+    </section>
   </main>
 
   <footer class="site-foot">
     <div class="site-foot__seal">囍</div>
-    <p class="site-foot__line" data-site="footer">With love, Edward &amp; Cathy · 林葆華 與 裴彩依</p>
+    <p class="site-foot__line" data-site="footer">Edward &amp; Cathy · 林葆華 與 裴彩依</p>
   </footer>
 
+  <script src="js/lightbox.js" defer></script>
+  <script src="js/gallery.js" defer></script>
   <script src="js/motion.js" defer></script>
   <script src="js/landing.js" defer></script>
+  <script>
+    // Theme filter for the merged "Every Photo" grid.
+    (function () {
+      const bar = document.querySelector(".filters");
+      const grid = document.querySelector("[data-manifest]");
+      if (!bar || !grid) return;
+      bar.addEventListener("click", (e) => {
+        const btn = e.target.closest(".filter");
+        if (!btn) return;
+        bar.querySelectorAll(".filter").forEach((b) => b.classList.toggle("is-active", b === btn));
+        const want = btn.dataset.filter;
+        grid.querySelectorAll(".photo").forEach((fig) => {
+          const show = want === "all" || fig.dataset.theme === want;
+          fig.style.display = show ? "" : "none";
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
