@@ -193,7 +193,22 @@
   content: ""; position: absolute; inset: 0;
   background-image: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.28), transparent 40%);
   mix-blend-mode: screen;
+  z-index: 2;
 }
+
+/* A random photo from the theme, faded in over its palette gradient. */
+.portal__preview {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.7s var(--ease), transform 0.5s var(--ease);
+}
+.portal__preview.is-loaded { opacity: 1; }
+.portal__link:hover .portal__preview.is-loaded { transform: scale(1.05); }
 
 .portal__body {
   display: flex;
